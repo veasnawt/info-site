@@ -1,5 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+html, body {
+  background: #23252C;
+  font-family: 'Inter';
+}
+
 .App {
   text-align: center;
+  width: 100%;
+  height: 100%;
 }
 
 .App-logo {
@@ -36,3 +45,124 @@
     transform: rotate(360deg);
   }
 }
+
+.main {
+  width: 317px;
+  height: 760px;
+  background: #1A1B21;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+  color: #fff;
+  box-shadow: 2px 2px 10px #000;
+}
+
+.my-image {
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+h2, h5 {
+  margin-block: 3px;
+}
+
+.name {
+  margin-top: 15px;
+  font-size: 25px;
+}
+
+.position {
+  font-size: 12.8;
+  color: #F3BF99;
+
+}
+
+.website {
+  font-size: 10.5;
+  margin-top: 10px;
+  color: #f5f5f5;
+}
+
+.about {
+  padding: 0 40px;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.contact a {
+  flex: 1;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.email, .linkedin {
+  display: flex;
+  gap: 5px;
+  height: 35px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.email {
+  background: #fff;
+  color: #000;
+}
+
+.linkedin {
+  background: #297FE5;
+  color: #fff;
+}
+
+.email-icon, .linkedin-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.about-me, .interests {
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+}
+
+.about-title, .about-me-paragraph, .interests-title, .interests-paragraph {
+  align-self: flex-start;
+  text-align: start;
+  margin: 0;
+}
+
+.about-title {
+  margin-top: 30px;
+}
+
+.interests-title {
+  margin-top: 20px;
+}
+
+.about-me-paragraph, .interests-paragraph {
+  margin-top: 7px;
+  font-size: 10px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background: #000f22;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
